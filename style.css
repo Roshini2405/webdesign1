@@ -1,1 +1,42 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.web{
+    padding: 10px;
+    height: 800px;
+    width: 100%;
+    background-color: rgba(253, 198, 248, 0.931);
+   
+}
 
+header{
+    display: flex;
+    align-items: center;
+}
+#button{
+    position: absolute;
+    right: 0%;
+    
+    justify-content: space-evenly;
+}
+.login{
+    width: 85px;
+    height: 25px;
+border-radius: 15px;
+    background-color: purple;
+    color: white;
+}
+.signup{
+    height:25px;
+    width: 85px;
+    border-radius: 15px;
+}
+
+h1{
+    background-image: radial-gradient(circle at left in hsl ,blue,skyblue,rgb(239, 55, 196),rgb(215, 113, 35),rgb(220, 205, 39));
+  background-clip: text;
+  -webkit-background-clip: text;
+    -moz-background-clip: text;
+  color: transparent;
+}
